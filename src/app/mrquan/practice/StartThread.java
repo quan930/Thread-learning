@@ -32,7 +32,6 @@ class RunRunnable implements Runnable{
 			}
 		}
 	}
-	
 }
 
 public class StartThread {
