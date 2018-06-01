@@ -5,7 +5,7 @@ import java.util.Scanner;
 //结束线程的方法
 //stop方法已经弃用，会导致线程非正常死亡
 class RunRun implements Runnable{
-	private boolean isRunning = true;
+	private volatile boolean isRunning = true;
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
